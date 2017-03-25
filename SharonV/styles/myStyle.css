@@ -1,0 +1,154 @@
+body 
+{
+    font-family: Tahoma;
+    background: url("../imeges/background1.jpg") no-repeat ;
+    direction:rtl;
+    width: 960px;
+    margin:0 auto;
+    background-size: 1300px;
+}
+h1 {
+     font-size:60pt;
+     padding-right: 120px;
+     font-family: Tahoma;
+     color: darkorchid;
+}
+#about {
+     padding: 30px 90px 0px 0px;
+
+    font-size:22pt;
+    text-align:center;
+    font-family: Tahoma;
+    width: 700px;
+}
+#profilePic {
+    font-size:18pt;
+    width: 960px;
+    height: 300px;
+}
+#me {
+ padding: 50px 350px 0px 0px;
+
+
+}
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #757575;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: right;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #03a9f4;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 25px 50px;
+    background-color: #e1f5fe;
+    color: #757575;
+    display: none;
+}
+
+
+
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+          transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.social-btns .btn.facebook:before {
+  background-color: #3b5998;
+}
+.social-btns .btn.facebook .fa {
+  color: #3b5998;
+}
+.social-btns .btn.snapchat:before {
+  background-color: #ffeb3b;
+}
+.social-btns .btn.snapchat .fa {
+  color: #ffeb3b;
+}
+.social-btns .btn.instagram:before {
+  background-color: #8a3ab9;
+}
+.social-btns .btn.instagram .fa {
+  color: #8a3ab9;
+}
+.social-btns .btn.google:before {
+  background-color: #dc4a38;
+}
+.social-btns .btn.google .fa {
+  color: #dc4a38;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.social-btns {
+  height: 90px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.social-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+  opacity: 0.99;
+}
+.social-btns .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 38px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
