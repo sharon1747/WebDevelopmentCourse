@@ -1,0 +1,103 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>הפקולטה לטכנולוגיות למידה HIT</title>
+    <meta name="description" content="הפקולטה לטכנולוגיות למידה" />
+    <meta name="keywords" content="למידה, טכנולוגיה, " />
+    <meta name="author" content="Sharon Vaknin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/scroll.js"></script>
+</head>
+<body>
+
+
+    <div id="Top">
+        <h1 id="title">הפקולטה לטכנולוגיות למידה</h1>
+    </div>
+
+    <div id="Content">
+        <img src="images/LandingBack4.png" />
+        <a href="https://telem-conf.hit.ac.il/">
+            <span class="popup" data-popuptext="עוד לא נרשמתם?" id="confButton" name="confButton" />
+        </a>
+        <a href="http://www.hit.ac.il/telem/B.A/curriculum/dev-and-mgmt-training">
+            <span class="popup" data-popuptext="פסיכולוגיה, הוראה מתוקשבת, למידת חקר, פיתוח לומדה, התנהגות ארגונית, פרזנטציות אפקטיביות"
+                  id="PituachButton" name="PituachButton" />
+        </a>
+        <a href="http://www.hit.ac.il/telem/B.A/curriculum/interaction-dev">
+            <span class="popup" data-popuptext="פיתוח ועיצוב אתרים, צד שרת, בסיסי נתונים, טכנולוגיה במדיה החדשה, תכנות אינטראקטיבי"
+                  id="TechButton" name="TechButton" />
+        </a>
+        <a href="#" onclick="smoothScroll(document.getElementById('about'))">
+            <span data-popuptext="" id="ContactButton" name="ContactButton" />
+        </a>
+        <a href="http://www.hit.ac.il/telem/B.A/curriculum/user-experience-design">
+            <span class="popup" data-popuptext="גרפיקה ממווחשבת, אינפוגרפיקה אינטראקטיבית, איפיון ממשק משתמש, עיצוב חווית משתמש"
+                  id="MultimediaButton" name="MultimediaButton" />
+        </a>
+
+
+        <p id="about">
+            <span style="font-weight:bold">B.A. בטכנולוגיות למידה</span>
+            תכנית הלימודים לתואר ראשון בטכנולוגיות למידה מותאמת לדרישות התעשייה ולמגמות המתפתחות בתחום ההדרכה בארץ ובעולם. התוכנית משלבת תכנים עיוניים והתנסות מעשית הכוללת תכנון, פיתוח, הטמעה ומחקר של מערכות הדרכה.
+        </p>
+    </div>
+
+    <div id="bottom">
+
+        <div id="formBox">
+
+            <h1 id="title2">
+                רוצים לשמוע עוד? הזינו פרטים בטופס הקצר מטה
+            </h1>
+
+            <br />
+
+            <form id="form1" method="post" action="mailto:sharonv1747@gmail.com">
+
+                <label for="FirstName">
+                    <input type="text" id="FirstName" placeholder="שם פרטי" />
+                </label>
+
+                <label for="LastName">
+                    <input type="text" id="LastName" placeholder="שם משפחה" />
+                </label>
+
+                <label for="Phone">
+                    <input type="text" id="Phone" placeholder="טלפון" />
+                </label>
+
+                <label for="Mail">
+                    <input type="text" id="Email" placeholder="דואר אלקטרוני" />
+                </label>
+
+                <p>
+                    <br />
+                    <label for="cb1">
+                        <input type="checkbox" id="cb1" checked /> אני מאשר לקבל מידע שיווקי בדוא"ל וSMS
+                    </label>
+
+                    <input type="submit" id="submit" value="שלח">
+                </p>
+            </form>
+
+        </div>
+
+        <p id="linktosite">
+            <a href="http://www.hit.ac.il/telem/B.A" target="_blank">לאתר הפקולטה</a>
+        </p>
+
+    </div>
+
+
+
+</body>
+</html>
